@@ -16,3 +16,10 @@ ul{
   padding: 15px;
 list-style-type: square;
 }
+
+li
+{
+  background-color: #0078D7;
+color: white;
+  text-align: center;
+}
