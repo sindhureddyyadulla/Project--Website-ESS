@@ -51,7 +51,7 @@ li:hover {
 }
 
 .content-section {
-  display: none; /* Hide all content sections initially */
+  display: none; /* Ensure all content sections are hidden by default */
   flex-direction: column; /* Stack text and image vertically */
   align-items: center; /* Center the content horizontally */
   text-align: center; /* Center the text */
