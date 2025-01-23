@@ -39,3 +39,6 @@ li:hover {
 .content-section {
   display: none;
 }
+#main-content {
+  align: center;
+}
