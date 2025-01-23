@@ -52,7 +52,8 @@ li:hover {
 
 .content-section {
   display: none; /* Hide all content sections initially */
-  flex-direction: column; /* Stack images vertically */
-  align-items: center; /* Center content horizontally */
-  gap: 20px; /* Add spacing between images */
+  flex-direction: column; /* Stack text and image vertically */
+  align-items: center; /* Center the content horizontally */
+  text-align: center; /* Center the text */
+  gap: 20px; /* Add spacing between text and image */
 }
