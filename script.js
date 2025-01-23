@@ -9,11 +9,11 @@ function showContent(weekId) {
   // Show the selected content section
   const selectedSection = document.getElementById(weekId);
   if (selectedSection) {
-    selectedSection.style.display = 'block';
+    selectedSection.style.display = 'flex'; // Use flex display for alignment
   }
 }
 
 // Automatically show the first week's content on page load
 document.addEventListener('DOMContentLoaded', () => {
-  showContent('week1');
+  showContent('week1-2'); // Change this to your default week content
 });
