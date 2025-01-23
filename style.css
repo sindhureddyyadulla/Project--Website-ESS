@@ -58,5 +58,5 @@ li:hover {
   display: flex;
   flex-direction: column; /* Stack images vertically */
   align-items: center; /* Center images horizontally */
-  gap: 20px; /* Add spacing between images */
+  gap:10px; /* Add spacing between images */
 }
