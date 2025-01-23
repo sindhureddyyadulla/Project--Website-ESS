@@ -42,8 +42,8 @@ li:hover {
 
 #main-content {
   display: flex;
-  gap: 10px; /* Add spacing between items */
-  margin: 10px 0;
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Add spacing between images */
 }
 
 #content {
