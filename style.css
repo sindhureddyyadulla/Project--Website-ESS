@@ -44,7 +44,7 @@ li:hover {
   display: flex;
   flex-direction: column;
   align-items: center; /* Center content horizontally */
-  justify-content: center; /* Center content vertically */
+  
   gap: 10px; /* Add spacing between items */
   margin: 20px 0;
 }
@@ -56,7 +56,5 @@ li:hover {
 .content-section {
   display: none;
   display: flex;
-  flex-direction: column; /* Stack images vertically */
-  align-items: center; /* Center images horizontally */
   gap:10px; /* Add spacing between images */
 }
