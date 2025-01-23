@@ -15,10 +15,10 @@ h1 {
 }
 
 p {
-  font-size: 1.2rem; /* Make text slightly larger */
+  font-size: 1.2rem;
   text-align: center;
   margin: 20px auto;
-  width: 80%; /* Constrain the width for better readability */
+  width: 80%;
 }
 
 ul {
@@ -33,7 +33,7 @@ li {
   padding: 10px;
   font-family: Arial, sans-serif;
   cursor: pointer;
-  margin: 10px 0; /* Add spacing between list items */
+  margin: 10px 0;
 }
 
 li:hover {
@@ -42,8 +42,8 @@ li:hover {
 
 #main-content {
   display: flex;
-  justify-content: center; /* Center images horizontally */
-  gap: 20px; /* Add spacing between images */
+  justify-content: center;
+  gap: 20px;
 }
 
 #content {
@@ -52,7 +52,7 @@ li:hover {
 
 .content-section {
   display: none; /* Hide all content sections initially */
-  display: flex;
-  justify-content: center; /* Center images horizontally */
+  flex-direction: column; /* Stack images vertically */
+  align-items: center; /* Center content horizontally */
   gap: 20px; /* Add spacing between images */
 }
