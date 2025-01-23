@@ -42,8 +42,6 @@ li:hover {
 
 #main-content {
   display: flex;
-  flex-direction: column;
-  align-items: center; /* Center content horizontally */
   gap: 10px; /* Add spacing between items */
   margin: 10px 0;
 }
