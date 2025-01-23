@@ -3,17 +3,17 @@ function showContent(weekId) {
   // Hide all content sections
   const sections = document.querySelectorAll('.content-section');
   sections.forEach(section => {
-    section.style.display = 'none';
+    section.style.display = 'none'; // Hide other sections
   });
 
   // Show the selected content section
   const selectedSection = document.getElementById(weekId);
   if (selectedSection) {
-    selectedSection.style.display = 'flex'; // Use flex display for alignment
+    selectedSection.style.display = 'flex'; // Display the section
   }
 }
 
 // Automatically show the first week's content on page load
 document.addEventListener('DOMContentLoaded', () => {
-  showContent('week1-2'); // Change this to your default week content
+  showContent('week1-2'); // Show week1-2 by default
 });
