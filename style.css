@@ -57,3 +57,10 @@ li:hover {
   text-align: center; /* Center the text */
   gap: 20px; /* Add spacing between text and image */
 }
+#pdisplay
+{
+  background-color: #0078D7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
