@@ -23,7 +23,7 @@ p {
 
 
 
-h3 {
+li {
   background-color: #0078D7;
   color: white;
   text-align: center;
@@ -33,7 +33,7 @@ h3 {
   margin: 10px 0;
 }
 
-h3:hover {
+li:hover {
   background-color: #005bb5;
 }
 
